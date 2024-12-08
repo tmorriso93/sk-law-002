@@ -33,9 +33,13 @@ export default function Page() {
           <div className="space-y-2 mt-2">
           {/* <h4 className="text-lg font-semibold">Address</h4> */}
           <address className="not-italic text-slate-700">
-            50 Richmond St E
+            50 Richmond St. East,
             <br />
-            Suit 119
+            Suit 119,
+            <br />
+            Mailbox #2053, 
+            <br />
+            The Firms,
             <br />
             Oshawa, ON L1G 7C7
           </address>

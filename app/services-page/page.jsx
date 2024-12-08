@@ -36,12 +36,12 @@ export default function Page() {
         <p className="font-bold my-10 text-gray-700 underline"><a href="https://www.google.com/maps/place/King+Law/@43.9000721,-78.8622394,17z/data=!3m1!4b1!4m6!3m5!1s0x89d51d6558eb533d:0xe754c2cf019a58dc!8m2!3d43.9000721!4d-78.8622394!16s%2Fg%2F11vqhywjpd?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" >See More</a></p>
         </div> */}
         <div className="relative container mx-auto h-full flex flex-col justify-center items-center text-center pb-6 py-8">
-        <div className="flex flex-col text-slate-100 text-4xl font-bold space-y-2 z-10">
-          <p className="text-[#DCBE7E] flex justify-center tracking-wide px-4"><span className='px-4' style={{ color: '#00133D' }}>We</span> Resolve.</p>
+        <div className="flex flex-col text-slate-100 text-5xl max-sm:text-3xl font-bold space-y-2 z-10">
+          <p className="text-[#DCBE7E] flex justify-center tracking-wide px-4"><span className='px-4' style={{ color: '#00133D' }}>We</span> Protect.</p>
           <p className="text-[#DCBE7E] flex justify-center tracking-wide "><span className='px-4' style={{ color: '#00133D' }}>We</span> Litigate.</p>
-          <p className="text-[#DCBE7E] flex justify-center tracking-wide "><span className='px-4' style={{ color: '#00133D' }}>We</span> Protect.</p>
+          <p className="text-[#DCBE7E] flex justify-center tracking-wide "><span className='px-4' style={{ color: '#00133D' }}>We</span> Resolve.</p>
         </div>
-        <h2 className="text-center text-5xl font-bold tracking-tight text-gray-800 sm:text-6xl mb-6 mt-10">SERVICES</h2>
+        <h2 className="text-center text-5xl font-bold tracking-tight text-gray-800 sm:text-7xl mb-6 mt-10">SERVICES</h2>
       </div>
         <AllServices />
         <Reviews />

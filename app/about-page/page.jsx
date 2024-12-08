@@ -27,27 +27,75 @@ export default async function Page() {
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
       <div>
         <div className="max-w-lg md:max-w-none">
-          <h2 className="text-3xl font-semibold text-gray-800 sm:text-3xl uppercase">
-          Steven King
+          <h2 className="text-4xl max-sm:text-2xl font-semibold text-gray-800 pb-2 uppercase">
+          Principal Lawyer Steven King
           </h2>
 
-          <p className="font-medium text-slate-700 mt-4">
-              Steven King is a seasoned employment lawyer in Durham, known for his pragmatic approach and integrity. Dedicated to providing quality legal services to employees and employers, Steven combines strategic thinking with creative solutions for complex employment and family law issues. Approachable and clear, Steven ensures clients feel comfortable and informed throughout the legal process, keeping their best interests at heart.
+          {/* <h3 className="font-medium mt-2 uppercase"></h3> */}
+
+            <p className="font-medium text-slate-700 mt-4">
+              Steven King is an experienced lawyer with a focus on employment and human rights law serving the Durham Region and GTA region. As a former federal prosecutor, Steven has extensive trial experience. Knowledgeable and easy to understand, Steven ensures his clients feel heard and informed throughout the legal process.
             </p>
             <p className="font-medium text-slate-700 mt-4">
-              Steven has extensive experience assisting workers, senior executives, directors, and regulated professionals with various workplace issues, including termination disputes, constructive dismissal, severance, and employment contract negotiations. His deep understanding of these high-stakes matters enables him to offer strategic and tailored advice, ensuring his clients' interests are well-protected.
+            Steven regularly represents workers, senior executives, directors, and professionals in all manner of workplace matters including but not limited to termination disputes, constructive dismissal, severance and employment contract negotiations. Steven will work with you to understand your desired outcome and risk appetite to tailor the best approach in achieving your goals. 
             </p>
             <p className="font-medium text-slate-700 mt-4">
-              Steven's small business practice is rooted in providing practical and holistic business advice, considering all aspects of his clients' situations to deliver comprehensive legal solutions. His proactive approach helps both employee and employer clients navigate the intricacies of employment law with confidence, ensuring they are well-prepared for any challenges that may arise. With a reputation for excellence and a commitment to upholding the highest standards of the legal profession, Steven King is a trusted advocate for individuals and businesses alike in Ontario's dynamic employment landscape.
+            Steven's work with employers is rooted in providing proactive, practical, and holistic business advice, considering all aspects of your business to deliver comprehensive legal solutions. His pragmatic and proactive approach helps his employer clients navigate the intricacies of employment law with confidence, ensuring they are well-prepared for any challenges that may arise.
             </p>
 
-            <h4 className="underlinetext-xl font-bold mt-6 text-xl">Community Involvement</h4>
+            <h4 className="underlinetext-xl font-bold mt-10 text-2xl uppercase text-slate-800">OUR WORK SECTION</h4>
+            <div className="px-4 py-8 text-slate-700">
+            <h1 className="text-2xl font-bold mb-4">Advisory Work</h1>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>Supported a steel manufacturer navigate the process in a union certification and bargaining drive</li>
+              <li>Advised a manufacturer industry client in the share purchase of a business, completing due diligence and drafting of employment contracts for executives and staff</li>
+              <li>Advised a small business in the progressive discipline of an absent employee</li>
+              <li>Advised a union in a merger of another local</li>
+            </ul>
+          </div>
+
+          <div className="px-4 py-8 text-slate-700">
+          <h1 className="text-2xl font-bold mb-4">Advocacy Work</h1>
+          <ul className="list-disc pl-5 space-y-2">
+            <li>Successfully obtained damages for a long-standing employee terminated for cause</li>
+            <li>Successfully obtained damages for an employee in the food and service industry at the Human Rights Tribunal of Ontario</li>
+            <li>Regularly represent engineers, directors and senior managers in termination disputes</li>
+            <li>Supported a family doctor defend a termination dispute of a long-standing employee centered around a frustration of contract issue</li>
+            <li>Successfully defend a small business owner on allegations of breach of a non-compete and non-solicitation dispute</li>
+            <li>Completed a three-week trial in a child protection matter</li>
+          </ul>
+        </div>
+        
+        <div className="px-4 py-8 text-slate-700">
+        <h1 className="text-2xl font-bold mb-6">COMMUNITY SECTION</h1>
+        <h2 className="text-xl font-semibold mb-2">Community Involvement and Professional Affiliations</h2>
+        <p className="mb-4">
+          Steven is deeply committed to his community and enjoys mentoring the next generation. He has served as a member on the Professional Development Committee with the Ontario Bar Association, contributing to the advancement of the legal profession. He also volunteers at his local church in Oshawa as a keyboardist and small group leader mentoring young adults. In his spare time, Steven enjoys staying active through fitness and playing soccer.
+        </p>
+        <ul className="list-disc pl-5 space-y-2">
+          <li>Canadian Association of Black Lawyers</li>
+          <li>Director DSCC 209 Condo Corporation</li>
+          <li>Braiding Diversity into Justice</li>
+        </ul>
+      </div>
+
+
+            {/* <h4 className="underlinetext-xl font-bold mt-6 text-xl">Community Involvement</h4>
             <p className="font-medium text-slate-700 mt-4">
               Steven is committed to his community and enjoys mentoring the next generation. He has served on the Professional Development Committee with the Ontario Bar Association, contributing to the legal profession. He also volunteers at his local church in Oshawa as a small group leader, mentoring young adults and professionals.
             </p>
             <p className="font-medium text-slate-700 mt-4">
               In his spare time, Steven stays active through fitness and playing soccer. He also loves live music and plays the piano.
+            </p> */}
+
+            {/* <h4 className="underlinetext-xl font-bold mt-6 text-xl">Community Involvement</h4>
+            <p className="font-medium text-slate-700 mt-4">
+              Steven is committed to his community and enjoys mentoring the next generation. He has served on the Professional Development Committee with the Ontario Bar Association, contributing to the legal profession. He also volunteers at his local church in Oshawa as a small group leader, mentoring young adults and professionals.
             </p>
+            <p className="font-medium text-slate-700 mt-4">
+              In his spare time, Steven stays active through fitness and playing soccer. He also loves live music and plays the piano.
+            </p> */}
+
             <div className="mt-4">
             <p className="text-lg text-slate-700">
         <strong>Email:</strong> <a href="mailto:steven@kinglaw.ca">steven@kinglaw.ca</a>

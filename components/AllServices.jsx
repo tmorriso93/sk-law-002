@@ -25,15 +25,15 @@ function AllServices() {
     "For Employers",
     "Labour Law",
     "Family Law",
-    "For Workers"
+    "For Employees"
   ];
 
   // Define separate bullet points for each article
   const bulletPoints = [
-    ["• Employee Contracts", "• Independent Contractor Agreements", "• Workplace Policies", "• Start Ups", "• Employee Privacy", "• Mergers & Acquisitions Related to Workforce Due Diligence"],
-    ["• Collective Bargaining", "• Union Organizing Drives", "• Collective Agreement Review", "• Second construction bullet", "• Third construction bullet"],
-    ["• First family service bullet", "• Second family service bullet", "• Grievance & Arbitrations", "• Advice to New Unions"],
-    ["• Severance Package Review & Negotiation", "• Contract Review & Negotiation", "• Termination Disputes", "• Sexual Assault, Harassment & Discrimination", "• Non-Solicitation & Non-Compete Disputes"]
+    ["• Contract and Policy Drafting", "• Mergers and Acquisitions", "• Terminations", "• Employer Advice", "• Regulatory Defence"],
+    ["• Collective Agreement Review", "• Collective Bargaining"],
+    ["• Child Support", "• Spousal Suport Divorce", "• Seperation Agreements", "• Marriage Contracts", "• Independent Legal Advice"],
+    ["• Severance and Contract Review", "• Human Rights", "• Wrongful Dismissal", "• Executive and Plaintiff side Litigation", "• Non-Compete/Non-Solicit"]
   ];
 
   const toggleTextVisibility = (index) => {
@@ -74,9 +74,9 @@ function AllServices() {
 
           {/* Render bullet points for the clicked article only */}
           {visibleIndex === index && (
-            <ul className="mt-4 space-y-2">
+            <ul className="mt-2 space-y-2" >
               {bulletPoints[index].map((point, pointIndex) => (
-                <li key={pointIndex} className="text-sm text-gray-600">
+                <li key={pointIndex} className="text-sm text-slate-500">
                   {point}
                 </li>
               ))}

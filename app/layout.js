@@ -162,8 +162,9 @@ export default function RootLayout({ children }) {
                 <Image
                   src={NavLogo}
                   alt="Logo"
-                  className="w-auto h-auto max-w-[150px] sm:max-w-[180px] lg:max-w-[200px] xl:max-w-[250px]"
+                  className="w-auto h-auto pl-0  max-w-[250px] sm:max-w-[300px] md:max-w-[330px] lg:max-w-[360px] xl:max-w-[370px] 2xl:max-w-[380px]"
                 />
+
               </Link>   
               </div>
               {/* Hamburger Icon for mobile view */}
