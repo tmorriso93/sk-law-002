@@ -37,19 +37,19 @@ export default function Footer() {
 
         {/* Social media icons */}
         <div className="flex justify-center items-center space-x-4 mt-6">
-          <Link className="text-gray-400 hover:text-white" href="#">
+          <Link className="text-gray-400 hover:text-white" target="_blank" href="https://www.facebook.com/share/19rD3L8vhP/">
             <FacebookIcon className="h-6 w-6" />
             <span className="sr-only">Facebook</span>
           </Link>
-          <Link className="text-gray-400 hover:text-white" href="#">
+          {/* <Link className="text-gray-400 hover:text-white" href="#">
             <TwitterIcon className="h-6 w-6" />
             <span className="sr-only">Twitter</span>
-          </Link>
-          <Link className="text-gray-400 hover:text-white" href="#">
+          </Link> */}
+          <Link className="text-gray-400 hover:text-white" target="_blank" href="https://www.linkedin.com/in/stevenianking?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <LinkedinIcon className="h-6 w-6" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link className="text-gray-400 hover:text-white" href="#">
+          <Link className="text-gray-400 hover:text-white" target="_blank" href="https://www.instagram.com/durhamemploymentlawyer">
             <InstagramIcon className="h-6 w-6" />
             <span className="sr-only">Instagram</span>
           </Link>
@@ -121,21 +121,21 @@ function LinkedinIcon(props) {
   );
 }
 
-function TwitterIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-    </svg>
-  );
-}
+// function TwitterIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       xmlns="http://www.w3.org/2000/svg"
+//       width="24"
+//       height="24"
+//       viewBox="0 0 24 24"
+//       fill="none"
+//       stroke="currentColor"
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     >
+//       <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+//     </svg>
+//   );
+// }
