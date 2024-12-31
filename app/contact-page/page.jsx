@@ -124,7 +124,7 @@ export default function Page() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="inline-block w-full rounded-lg bg-[#1d2b4f] px-5 py-3 font-medium text-white sm:w-auto"
+            className="inline-block w-full rounded-lg bg-[#1d2b4f] px-5 py-3 font-medium text-white sm:w-auto hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out focus:outline-none focus:ring"
           >
             Send Enquiry
           </button>

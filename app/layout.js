@@ -91,6 +91,10 @@ export default function RootLayout({ children }) {
                 </ul>
               </nav>
             </div>
+            <link
+          href="https://fonts.googleapis.com/css2?family=Didot:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
           </header>
 
           <main className="z-10 max-w-[1200px] w-full mx-auto bg-white/50 backdrop-blur rounded-md py-7 px-8 m-6 overflow-hidden relative">
