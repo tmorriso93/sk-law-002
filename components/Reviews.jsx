@@ -554,7 +554,17 @@ const Reviews = () => {
          and support for your employment case! 5 stars!
         </p>
       </blockquote>
-
+    
+      {/* ---- */}  
+      <br />
+      <a
+        href="https://maps.app.goo.gl/Ry2R2DRReEBGdDQL7"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="my-4 inline-block text-blue-600 font-medium hover:underline"
+      >
+        See More
+      </a>
     {/* ---- */}
 
     </div>

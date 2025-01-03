@@ -22,10 +22,11 @@ function AllServices() {
 
   // Define separate content for each article
   const titles = [
+    "For Employees",
     "For Employers",
     "Labour Law",
-    "Family Law",
-    "For Employees"
+    "Family Law"
+    
   ];
 
   // Define separate bullet points for each article

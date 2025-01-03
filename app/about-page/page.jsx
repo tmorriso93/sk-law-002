@@ -11,25 +11,34 @@ export default function Page() {
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-8">
                         <div className="order-2 md:order-1">
                             <div className="max-w-lg md:max-w-none">
-                                <h2 className="text-4xl max-sm:text-2xl font-semibold text-gray-800 pb-2 uppercase">
+                                <h2 className="text-4xl max-sm:text-2xl font-semibold text-gray-800 pb-2 pt-2 uppercase">
                                     Steven King
                                 </h2>
                                 <h4 className=" font-medium text-lg text-slate-400 uppercase">Principal Lawyer </h4>
                                 <p className="font-medium text-slate-700 mt-4">
-                                    Steven King is an experienced lawyer with a focus on employment and human rights law serving the Durham Region and GTA region. As a former federal prosecutor, Steven has extensive trial experience. Knowledgeable and easy to understand, Steven ensures his clients feel heard and informed throughout the legal process.
+                                    Steven King is an experienced lawyer with a focus on employment and human rights law serving the Durham
+                                     Region and GTA region. As a former federal prosecutor, Steven has extensive trial experience. Knowledgeable and easy to understand,
+                                      Steven ensures his clients feel heard and informed throughout the legal process.
                                 </p>
-                                <p className="font-medium text-slate-700 mt-4">
-                                    Steven regularly represents workers, senior executives, directors, and professionals in all manner of workplace matters including but not limited to termination disputes, constructive dismissal, severance and employment contract negotiations. Steven will work with you to understand your desired outcome and risk appetite to tailor the best approach in achieving your goals.
+                                <p className="font-medium text-slate-700 mt-8">
+                                    Steven regularly represents workers, senior executives, directors, and professionals in all manner of workplace matters including
+                                     but not limited to termination disputes, constructive dismissal, severance and employment contract negotiations. Steven will work
+                                      with you to understand your desired outcome and risk appetite to tailor the best approach in achieving your goals.
                                 </p>
-                                <p className="font-medium text-slate-700 mt-4">
-                                    Steven's work with employers is rooted in providing proactive, practical, and holistic business advice, considering all aspects of your business to deliver comprehensive legal solutions. His pragmatic and proactive approach helps his employer clients navigate the intricacies of employment law with confidence, ensuring they are well-prepared for any challenges that may arise.
+                                <p className="font-medium text-slate-700 mt-8">
+                                    Steven's work with employers is rooted in providing proactive, practical, and holistic business advice, considering all aspects
+                                     of your business to deliver comprehensive legal solutions. His pragmatic and proactive approach helps his employer clients navigate the
+                                      intricacies of employment law with confidence, ensuring they are well-prepared for any challenges that may arise.
                                 </p>
+                                <div className="hidden">
                                 <h4 className="underlinetext-xl font-bold mt-10 text-2xl uppercase text-slate-800">OUR WORK SECTION</h4>
                                 <div className="px-4 py-8 text-slate-700">
                                     <h1 className="text-2xl font-bold mb-4">Advisory Work</h1>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li>Supported a steel manufacturer navigate the process in a union certification and bargaining drive</li>
-                                        <li>Advised a manufacturer industry client in the share purchase of a business, completing due diligence and drafting of employment contracts for executives and staff</li>
+                                        <li>Advised a manufacturer industry client in the share purchase of a business, completing due diligence and drafting of 
+                                            employment contracts for executives and staff
+                                        </li>
                                         <li>Advised a small business in the progressive discipline of an absent employee</li>
                                         <li>Advised a union in a merger of another local</li>
                                     </ul>
@@ -45,7 +54,8 @@ export default function Page() {
                                         <li>Completed a three-week trial in a child protection matter</li>
                                     </ul>
                                 </div>
-                                <div className="px-4 py-8 text-slate-700">
+                                </div>
+                                <div className="px-4 py-8 text-slate-700 hidden">
                                     <h1 className="text-2xl font-bold mb-6">COMMUNITY SECTION</h1>
                                     <h2 className="text-xl font-semibold mb-2">Community Involvement and Professional Affiliations</h2>
                                     <p className="mb-4">
@@ -57,24 +67,56 @@ export default function Page() {
                                         <li>Braiding Diversity into Justice</li>
                                     </ul>
                                 </div>
-                                <div className="mt-4">
+                                {/* <div className="mt-4">
                                     <p className="text-lg text-slate-700">
                                         <strong>Email:</strong> <a href="mailto:steven@kinglaw.ca">steven@kinglaw.ca</a>
                                     </p>
                                     <p className="text-lg text-slate-700">
-                                        <strong>Phone:</strong> <a href="tel:2898192272">(289)-819-2272</a>
+                                        <strong>Main Office:</strong> <a href="tel:9053837416">(905)-383-7416</a>
                                     </p>
-                                </div>
+                                    <p className="text-lg text-slate-700">
+                                        <strong>Toronto:</strong> <a href="tel:4379009259">(437)-900-9259</a>
+                                    </p>
+                                    <p className="text-lg text-slate-700">
+                                        <strong>Oshawa:</strong> <a href="tel:2898192272">(289)-819-2272</a>
+                                    </p>
+                                   
+                                </div> */}
                             </div>
                         </div>
                         <div className="order-1 md:order-2 md:flex md:justify-end">
+                        <div className="flex flex-col items-center md:items-start ">
                             <Image
                                 src={AboutImage}
                                 className="rounded"
                                 id="aboutImage"
                                 alt="About Image"
                             />
+                             <div className="mt-4  flex flex-col mx-auto py-8  md:justify-end" id='contact-info'>
+                                    <div>
+                                    <p className="text-lg text-slate-700">
+                                        <strong>Email:</strong> <a href="mailto:steven@kinglaw.ca">steven@kinglaw.ca</a>
+                                    </p>
+                                    </div>
+                                    <div>
+                                    <p className="text-lg text-slate-700">
+                                        <strong>Main Office:</strong> <a href="tel:9053837416">(905)-383-7416</a>
+                                    </p>
+                                    </div>
+                                    <div>
+                                    <p className="text-lg text-slate-700">
+                                        <strong>Toronto:</strong> <a href="tel:4379009259">(437)-900-9259</a>
+                                    </p>
+                                    </div>
+                                    <div>
+                                    <p className="text-lg text-slate-700">
+                                        <strong>Oshawa:</strong> <a href="tel:2898192272">(289)-819-2272</a>
+                                    </p>
+                                    </div>
+                                   </div>
+                                </div>
                         </div>
+                        
                        
                     </div>
                     <div className="flex justify-center mt-8">
