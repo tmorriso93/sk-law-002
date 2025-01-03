@@ -31,7 +31,7 @@ function Faq() {
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-        The duration to negotiate your package is continegent on the employer and complexity ofnyour case. Each case is different. Typically a straight forward case will take 1-3
+        The duration to negotiate your package is continegent on the employer and complexity of your case. Each case is different. Typically a straight forward case will take 1-3
         months to settle. After 3 months of negotiating you should consider bringing litigation.
     </p>
   </details>
