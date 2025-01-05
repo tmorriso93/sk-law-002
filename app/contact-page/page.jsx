@@ -47,9 +47,7 @@ export default function Page() {
         <address className="not-italic text-slate-700">
           50 Richmond St. East,
           <br />
-          Suit 119,
-          <br />
-          Mailbox #2053, 
+          Suite 119,
           <br />
           The Firms,
           <br />

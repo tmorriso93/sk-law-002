@@ -31,10 +31,12 @@ function AllServices() {
 
   // Define separate bullet points for each article
   const bulletPoints = [
+    ["• Severance and Contract Review", "• Human Rights", "• Wrongful Dismissal", "• Executive and Plaintiff side Litigation", "• Non-Compete/Non-Solicit"],
     ["• Contract and Policy Drafting", "• Mergers and Acquisitions", "• Terminations", "• Employer Advice", "• Regulatory Defence"],
     ["• Collective Agreement Review", "• Collective Bargaining"],
     ["• Child Support", "• Spousal Suport Divorce", "• Seperation Agreements", "• Marriage Contracts", "• Independent Legal Advice"],
-    ["• Severance and Contract Review", "• Human Rights", "• Wrongful Dismissal", "• Executive and Plaintiff side Litigation", "• Non-Compete/Non-Solicit"]
+    
+    
   ];
 
   const toggleTextVisibility = (index) => {
