@@ -11,15 +11,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/about-page/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about-page/page.js"
-    ],
     "/services-page/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/services-page/page.js"
+    ],
+    "/about-page/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about-page/page.js"
     ],
     "/contact-page/page": [
       "static/chunks/webpack.js",

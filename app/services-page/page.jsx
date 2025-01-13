@@ -38,8 +38,8 @@ export default function Page() {
         <div className="relative container mx-auto h-full flex flex-col justify-center items-center text-center pb-6 py-8">
         <div className="flex flex-col text-slate-100 text-5xl max-sm:text-3xl font-bold space-y-2 z-10">
           <p className="text-[#DCBE7E] flex justify-center tracking-wide px-4"><span className='px-4' style={{ color: '#00133D' }}>We</span> Protect.</p>
-          <p className="text-[#DCBE7E] flex justify-center tracking-wide "><span className='px-4' style={{ color: '#00133D' }}>We</span> Litigate.</p>
           <p className="text-[#DCBE7E] flex justify-center tracking-wide "><span className='px-4' style={{ color: '#00133D' }}>We</span> Resolve.</p>
+          <p className="text-[#DCBE7E] flex justify-center tracking-wide "><span className='px-4' style={{ color: '#00133D' }}>We</span> Litigate.</p>
         </div>
         <h2 className="text-center text-5xl font-bold tracking-tight text-gray-800 sm:text-7xl mb-6 mt-10">SERVICES</h2>
       </div>

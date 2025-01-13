@@ -31,7 +31,8 @@ function Faq() {
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-        The duration to negotiate your package is continegent on the employer and complexity of your case. Each case is different. Typically a straight forward case will take 1-3
+        The duration to negotiate your package is contingent on the employer and complexity of your case.
+        Each case is different. Typically a straight forward case will take 1-3
         months to settle. After 3 months of negotiating you should consider bringing litigation.
     </p>
   </details>
@@ -41,7 +42,7 @@ function Faq() {
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
       <h2 className="text-lg font-medium text-gray-900">
-        Do you take contingency retainer?
+        Do you accept contingency fee retainers?
       </h2>
 
       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -61,9 +62,8 @@ function Faq() {
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-        In limited circumstances we will take a case on contingency where your fee will be 30%
-        plus HST on the increase of your severance
-        package or an entire settlement, or award received in a Tribunal or court.
+    In limited circumstances, we will take a case on contingency, where our fee will be 30% plus HST on the increase
+    of your severance package, or on the entire settlement or award received in a tribunal or court.
     </p>
   </details>
   <details
@@ -72,7 +72,7 @@ function Faq() {
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
       <h2 className="text-lg font-medium text-gray-900">
-        Do you take legal aid matters in family law?
+       Do you handle family law matters funded by legal aid?
       </h2>
 
       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -92,8 +92,8 @@ function Faq() {
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-    We take on limited family law matters on
-    private retainers. However, in some circumstances we will take on a family law matter funded by Legal Aid Ontario.
+    We handle a limited number of family law matters on private retainers. However, in certain situations,
+    we may accept family law matters funded by Legal Aid Ontario.
     </p>
   </details>
 
@@ -102,7 +102,7 @@ function Faq() {
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
       <h2 className="text-lg font-medium text-gray-900">
-        I am being investigated or disciplined how can you assist?
+        How Can You Help If I’m Being Disciplined or Investigated?
       </h2>
 
       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -122,10 +122,9 @@ function Faq() {
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-    We have assisted directors, employees and regulated professionals in workplace or
-    regulatory investigations. We will help you navigate your investigation and represent you
-    in subsequent disciplinary hearings under the
-    College of Early Childhood Educators or Real Estate Council of Ontario (RECO).
+    We have supported directors, employees, and regulated professionals during workplace and regulatory investigations.
+    Our team can guide you through the investigation process and represent you in disciplinary hearings by your regulatory
+    body. We have experience representing professionals regulated by the College of Early Childhood Educators and the Real Estate Council of Ontario (RECO).
     </p>
   </details>
   <details
@@ -133,7 +132,7 @@ function Faq() {
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
       <h2 className="text-lg font-medium text-gray-900">
-        Criminal Offences in the Workplace
+        What Support Can You Offer When Criminal Offenses Affect My Job?
       </h2>
 
       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -153,7 +152,10 @@ function Faq() {
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-        As a former agent federal prosecutor, Steven has prosecuted numerous trials involving drug trafficking and charter litigation. We are comfortable with navigating the criminal legal process. If you are faced with a criminal charge that occurred in the workplace, contact us and we will assist you in navigating the implications in the criminal and employment law context.
+    With experience as a former federal prosecutor, Steven has handled numerous trials involving drug trafficking
+    and charter litigation. We are equipped to guide you through criminal legal procedure. If you face criminal
+    charges affecting your job, reach out to us, and we will assist you with the legal implications in both criminal
+    and employment law.
     </p>
   </details>
   <br />

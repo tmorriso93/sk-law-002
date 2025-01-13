@@ -16,9 +16,10 @@ export default function Page() {
                                 </h2>
                                 <h4 className=" font-medium text-lg text-slate-400 uppercase">Principal Lawyer </h4>
                                 <p className="font-medium text-slate-700 mt-4">
-                                    Steven King is an experienced lawyer with a focus on employment and human rights law serving the Durham
-                                     Region and GTA region. As a former federal prosecutor, Steven has extensive trial experience. Knowledgeable and easy to understand,
-                                      Steven ensures his clients feel heard and informed throughout the legal process.
+                                    Steven King is an experienced lawyer based in Oshawa, with a focus on employment and 
+                                    human rights law serving all of Ontario.
+                                    As a former federal prosecutor, Steven has extensive trial experience. Knowledgeable
+                                    and easy to understand, Steven ensures his clients feel heard and informed throughout the legal process.
                                 </p>
                                 <p className="font-medium text-slate-700 mt-8">
                                     Steven regularly represents workers, senior executives, directors, and professionals in all manner of workplace matters including
@@ -30,19 +31,23 @@ export default function Page() {
                                      of your business to deliver comprehensive legal solutions. His pragmatic and proactive approach helps his employer clients navigate the
                                       intricacies of employment law with confidence, ensuring they are well-prepared for any challenges that may arise.
                                 </p>
-                                <div className="hidden">
-                                <h4 className="underlinetext-xl font-bold mt-10 text-2xl uppercase text-slate-800">OUR WORK SECTION</h4>
+                                
+                                <h4 className="underlinetext-xl font-bold mt-10 text-2xl uppercase text-slate-800 hidden"></h4>
                                 <div className="px-4 py-8 text-slate-700">
-                                    <h1 className="text-2xl font-bold mb-4">Advisory Work</h1>
+                                    <h1 className="text-2xl font-bold mb-4">Steven's Trial Work:</h1>
                                     <ul className="list-disc pl-5 space-y-2">
-                                        <li>Supported a steel manufacturer navigate the process in a union certification and bargaining drive</li>
-                                        <li>Advised a manufacturer industry client in the share purchase of a business, completing due diligence and drafting of 
-                                            employment contracts for executives and staff
-                                        </li>
-                                        <li>Advised a small business in the progressive discipline of an absent employee</li>
-                                        <li>Advised a union in a merger of another local</li>
+                                        <li><a href="https://canlii.ca/t/jh6mq" target="_blank" title="Visit " className="text-blue-500">McDonald v. Coelho 2021 ONSC 5238 (CanLII)</a></li>
+                                        {/* <li>2021 ONSC 5238 (CanLII)</li>
+                                        <a href="https://canlii.ca/t/jh6mq" target="_blank" title="Visit " className="text-blue-500">Click Here</a> */}
+                                        {/* <br /> */}
+                                        {/* <br /> */}
+                                        <li><a href="https://canlii.ca/t/k49z1" target="_blank" title="Visit " className="text-blue-500">Children and Family Services for York Religion V. B.T. and R.S. 2024 ONSC 2179 (CanLII)</a></li>
+                                        {/* <li>2024 ONSC 2179 (CanLII)</li>
+                                        <a href="https://canlii.ca/t/k49z1" target="_blank" title="Visit " className="text-blue-500">Click Here</a> */}
+                                        
                                     </ul>
                                 </div>
+                                <div className="hidden">
                                 <div className="px-4 py-8 text-slate-700">
                                     <h1 className="text-2xl font-bold mb-4">Advocacy Work</h1>
                                     <ul className="list-disc pl-5 space-y-2">

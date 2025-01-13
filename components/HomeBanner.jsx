@@ -59,7 +59,7 @@ function HomeBanner() {
 
             <div id="copy" className="mt-[-40px]">
             <h1 className="drop-shadow-md text-3xl font-extrabold text-white sm:text-5xl font-didot ">
-              <strong className="block font-extrabold uppercase drop-shadow-lg text-yellow-500"> King Law </strong>
+              <strong className="block font-extrabold uppercase drop-shadow-lg text-slate-50"> King Law </strong>
             </h1>
 
             <p className="font-bold drop-shadow-md mt-1 max-w-lg text-slate-50 sm:text-xl/relaxed font-didot">

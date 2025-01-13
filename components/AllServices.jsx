@@ -14,10 +14,11 @@ function AllServices() {
   const [visibleIndex, setVisibleIndex] = useState(null);
 
   const icons = [
+    <FaRegHandshake className="size-6" />,
     <FaBuilding className="size-6" />,
     <FaHardHat className="size-6" />,
     <MdFamilyRestroom className="size-6" />,
-    <FaRegHandshake className="size-6" />,
+    
   ];
 
   // Define separate content for each article
@@ -34,7 +35,7 @@ function AllServices() {
     ["• Severance and Contract Review", "• Human Rights", "• Wrongful Dismissal", "• Executive and Plaintiff side Litigation", "• Non-Compete/Non-Solicit"],
     ["• Contract and Policy Drafting", "• Mergers and Acquisitions", "• Terminations", "• Employer Advice", "• Regulatory Defence"],
     ["• Collective Agreement Review", "• Collective Bargaining"],
-    ["• Child Support", "• Spousal Suport Divorce", "• Seperation Agreements", "• Marriage Contracts", "• Independent Legal Advice"],
+    ["• Child Support", "• Spousal Support","• Divorce", "• Separation Agreements", "• Marriage Contracts", "• Independent Legal Advice"],
     
     
   ];

@@ -10,11 +10,11 @@ export default function Footer() {
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600"></div>
 
-        <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-slate-800">
-          Steven King Law P.C
+        <p className="mx-auto mt-6 mb-2 max-w-md text-center leading-relaxed text-slate-800 uppercase">
+          Steven King Law P.C.
         </p>
-        <p className="text-xs text-muted-foreground text-center">
-          &copy; {new Date().getFullYear()} Steven King Law All rights reserved.
+        <p className="text-xs text-muted-foreground text-center uppercase">
+          &copy; {new Date().getFullYear()} Steven King Law P.C. All rights reserved.
         </p>
 
         <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
@@ -41,15 +41,12 @@ export default function Footer() {
             <FacebookIcon className="h-6 w-6" />
             <span className="sr-only">Facebook</span>
           </Link>
-          {/* <Link className="text-gray-400 hover:text-white" href="#">
-            <TwitterIcon className="h-6 w-6" />
-            <span className="sr-only">Twitter</span>
-          </Link> */}
+
           <Link className="text-gray-400 hover:text-white" target="_blank" href="https://www.linkedin.com/in/stevenianking?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <LinkedinIcon className="h-6 w-6" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link className="text-gray-400 hover:text-white" target="_blank" href="https://www.instagram.com/durhamemploymentlawyer">
+          <Link className="text-gray-400 hover:text-white" target="_blank" href="https://www.instagram.com/kingemploymentlaw/">
             <InstagramIcon className="h-6 w-6" />
             <span className="sr-only">Instagram</span>
           </Link>
@@ -120,22 +117,3 @@ function LinkedinIcon(props) {
     </svg>
   );
 }
-
-// function TwitterIcon(props) {
-//   return (
-//     <svg
-//       {...props}
-//       xmlns="http://www.w3.org/2000/svg"
-//       width="24"
-//       height="24"
-//       viewBox="0 0 24 24"
-//       fill="none"
-//       stroke="currentColor"
-//       strokeWidth="2"
-//       strokeLinecap="round"
-//       strokeLinejoin="round"
-//     >
-//       <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-//     </svg>
-//   );
-// }
