@@ -27,11 +27,11 @@ export default function Footer() {
           </li>
 
           <li>
-            <NavLink className="text-gray-700 transition hover:text-gray-700/75" text="Contact" path="/contact-page" />
+            <NavLink className="text-gray-700 transition hover:text-gray-700/75" text="Services" path="/services-page" />
           </li>
 
           <li>
-            <NavLink className="text-gray-700 transition hover:text-gray-700/75" text="Services" path="/services-page" />
+            <NavLink className="text-gray-700 transition hover:text-gray-700/75" text="Contact" path="/contact-page" />
           </li>
         </ul>
 
