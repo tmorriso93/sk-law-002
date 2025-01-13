@@ -10,7 +10,7 @@ function Faq() {
     open
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
-      <h2 className="text-lg font-medium text-gray-900">
+      <h2 className="text-lg font-medium text-gray-900 capitalize">
         How long does it take to negotiate a severance package?
       </h2>
 
@@ -41,7 +41,7 @@ function Faq() {
     className="group border-s-4 border-[#1d2b4f] bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
-      <h2 className="text-lg font-medium text-gray-900">
+      <h2 className="text-lg font-medium text-gray-900 capitalize">
         Do you accept contingency fee retainers?
       </h2>
 
@@ -71,7 +71,7 @@ function Faq() {
     open
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
-      <h2 className="text-lg font-medium text-gray-900">
+      <h2 className="text-lg font-medium text-gray-900 capitalize">
        Do you handle family law matters funded by legal aid?
       </h2>
 
@@ -101,7 +101,7 @@ function Faq() {
     className="group border-s-4 border-[#1d2b4f] bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
-      <h2 className="text-lg font-medium text-gray-900">
+      <h2 className="text-lg font-medium text-gray-900 capitalize">
         How Can You Help If I’m Being Disciplined or Investigated?
       </h2>
 
@@ -131,7 +131,7 @@ function Faq() {
     className="group border-s-4 border-[#1d2b4f] bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
   >
     <summary className="flex cursor-pointer items-center justify-between gap-2">
-      <h2 className="text-lg font-medium text-gray-900">
+      <h2 className="text-lg font-medium text-gray-900 capitalize">
         What Support Can You Offer When Criminal Offenses Affect My Job?
       </h2>
 
